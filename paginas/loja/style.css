@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+:root {
+  /* Cores de Destaque e Ação */
+  --color-primary-active: #FF6600; /* Laranja do menu ativo */
+  --color-cta: #4CAF50;            /* Verde dos botões de compra */
+
+  /* Estrutura e Fundos */
+  --bg-header: #333333;            /* Grafite do topo */
+  --bg-nav: #4A4A4A;               /* Cinza do menu superior */
+  --bg-footer: #484848;            /* Grafite do rodapé */
+  --bg-main: #F5F5F5;              /* Fundo off-white da página */
+  --bg-card: #FFFFFF;              /* Fundo branco dos cards */
+
+  /* Bordas e Detalhes */
+  --border-card: #E0E0E0;          /* Borda suave dos cards */
+
+  /* Botões do Rodapé */
+  --bg-footer-btn: #FCE4EC;        /* Fundo claro dos links do rodapé */
+  --text-footer-btn: #B71C1C;      /* Texto vermelho dos links do rodapé */
+
+  /* Tipografia */
+  --text-main: #212121;            /* Cor principal para textos e títulos */
+  --text-light: #FFFFFF;           /* Texto branco para fundos escuros */
+}
