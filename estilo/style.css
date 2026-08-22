@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+:root {
+  /* Cores Principais */
+  --color-primary: #1E66CC;       /* Azul Principal do Logo */
+  --color-primary-dark: #0D47A1;  /* Azul Escuro / Contrastes */
+  
+  /* Cores de Apoio e Destaque */
+  --color-accent: #FF9933;         /* Laranja (Botões, CTAs e Destaques) */
+  --color-secondary: #26A69A;      /* Verde Água / Clean Teal */
+  
+  /* Neutros e Tipografia */
+  --color-text-main: #3E454A;      /* Grafite Escuro para Textos */
+  --color-text-muted: #6C757D;     /* Cinza Secundário para Subtítulos */
+  
+  /* Fundos (Tema Claro e Transparências) */
+  --color-bg-main: #FFFFFF;        /* Fundo Principal */
+  --color-bg-alt: #F8F9FA;         /* Fundo Secundário / Cards */
+  --color-border: #E9ECEF;         /* Bordas Suaves */
+}
+*{
+                 margin: 0;
+                 padding: 0;
+                 box-sizing: border-box;
+                  
+}
+body{
+                    background-color: var(--color-bg-main);
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: var(--color-text-main);
+                    margin: 0 auto;
+}
+header{
+                    background-image: linear-gradient(to top, var(--color-accent), white);
+                    border-bottom: 1px solid var(--color-primary-dark);
+                    margin: 0 auto;
+                    text-align: center;
+}
+header figure img{
+                    margin-top: 10px;
+                    width: 300px;
+}
+header .nav-right{
+                    margin-bottom: 20px;
+}
+header .nav-right ul li{
+                    list-style: none;
+                    margin: 20px;
+}
+.nav-right ul li a{
+                    text-decoration: none;
+                    color: var(--color-primary-dark);
+                    font-weight: bold;
+                    font-weight: bold;
+                    padding: 8px 16px;
+                    border-radius: 5px;
+                    transition: all 0.3s; 
+                   
+}
+.nav-right ul li a:hover{
+                    background-color: var(--color-primary-dark);
+                    border: 1px solid white;
+                    color: white;
+                   
+
+                   
+}
