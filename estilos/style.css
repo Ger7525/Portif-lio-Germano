@@ -34,7 +34,7 @@ header{
   color: var(--texto);
   padding: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-content: center;
   align-items: center;
 }
@@ -169,6 +169,44 @@ article#video .video-container{
   background-color: var(--destaque-inverso);
   border-radius: 4px;
 }
+.formacao-container{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+.formacao-container .curso{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  background-color: var(--fundo-principal);
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque-inverso);
+  padding-left: 15px;
+  padding-top: 10px;
+  transition:all 0,5s;
+}
+.formacao-container .curso:hover{
+  border-left-width: 15px;
+  border-color: var(--destaque);
+  cursor: pointer;
+}
+.formacao-container .periodo{
+  font-size: 0.5em;
+  font-weight: bold;
+  color: var(--texto);
+ 
+
+}
+.formacao-container .instituicao{
+  color: var(--destaque);
+  font-size: 0.5em;
+}
+.formacao-container .cursando{
+  color: var(--texto);
+  font-size: 0.6em;
+  margin-bottom: 10px;
+}
+
 @media screen and (min-width:768px) {
   #skill-container{
           grid-template-columns:repeat(2, 1fr);
