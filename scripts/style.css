@@ -248,8 +248,8 @@ article#video .video-container{
   section#ficha{
        grid-column: 2/3;
        height: fit-content;
-       position: sticky;
-       top: 60px;
+       position: fixed;
+       top: 65px;
   }
   section#detalhes{
         grid-column:3/4;
